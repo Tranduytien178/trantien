@@ -1,0 +1,29 @@
+.slider_theme{
+    background-image: url('../imgs/background/background-slider-theme1.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    @media only screen and(max-width: 768px){
+        background-position: top left;
+    }
+    .thim-block-slider-home{
+        padding: 320px 0 660px;
+        @media only screen and(max-width: 1366px){
+            padding: 240px 0 460px;
+        }
+        .content{
+            max-width: 360px;
+            .content-title{
+                @media only screen and(max-width: 768px){
+                    font-size: 70px;
+                }
+            }
+            .content-content{
+                line-height: 1.7;
+                @media only screen and(max-width: 768px){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

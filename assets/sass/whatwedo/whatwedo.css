@@ -1,0 +1,141 @@
+.whatwedo {
+  background-image: url("../imgs/background/background-new.png");
+  margin-top: -77px;
+}
+
+@media only screen and (max-width: 1690px) {
+  .whatwedo {
+    background-image: url("../imgs/background/background-new2.png");
+  }
+}
+
+.whatwedo .whatwedo-content {
+  padding-bottom: 865px;
+  padding-top: 280px;
+}
+
+.whatwedo .whatwedo-content .whatwedo-items {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+  .whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+.whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-title {
+  font-family: asap_semibold;
+  font-size: 44px;
+  color: #000000;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-title {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-title {
+    text-align: center;
+  }
+}
+
+.whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 15px;
+}
+
+.whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-content .whatwedo-items-a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: asap_regular;
+  color: #c0c0c0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-content .whatwedo-items-a {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-content .whatwedo-items-a {
+    text-align: center;
+  }
+}
+
+.whatwedo .whatwedo-content .whatwedo-items .whatwedo-items-content .whatwedo-items-a:hover {
+  color: #ffc22c;
+}
+
+.whatwedo .whatwedo-content .whatwedo-depcription {
+  padding-top: 50px;
+  max-width: 385px;
+  float: right;
+  margin-right: 100px;
+}
+
+.whatwedo .whatwedo-content .whatwedo-depcription .whatwedo-depcription-title {
+  font-family: asap_bold;
+  font-size: 100px;
+  color: #000000;
+  padding-bottom: 20px;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .whatwedo .whatwedo-content .whatwedo-depcription .whatwedo-depcription-title {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 793px) {
+  .whatwedo .whatwedo-content .whatwedo-depcription .whatwedo-depcription-title {
+    font-size: 70px;
+  }
+}
+
+.whatwedo .whatwedo-content .whatwedo-depcription .whatwedo-depcription-p {
+  font-family: asap_regular;
+  font-size: 18px;
+  color: #000000;
+}
+
+.whatwedo .whatwedo-content .whatwedo-depcription .whatwedo-depcription-button {
+  max-width: 214px;
+}
+
+@media only screen and (max-width: 793px) {
+  .whatwedo .whatwedo-content .whatwedo-depcription {
+    float: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .whatwedo .whatwedo-content .whatwedo-depcription {
+    max-width: unset;
+    margin-right: unset;
+  }
+}
+
+@media only screen and (max-width: 793px) {
+  .whatwedo .whatwedo-content {
+    padding-bottom: 765px;
+    padding-top: 160px;
+  }
+}
+/*# sourceMappingURL=whatwedo.css.map */

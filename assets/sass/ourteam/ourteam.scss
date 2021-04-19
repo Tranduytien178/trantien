@@ -1,0 +1,133 @@
+.ourteam{
+    .cicle-ourteam{
+        border: 3px dashed #e4e4e4;
+        .cicle-ourteam-icon{
+            box-shadow: 0 1px 5px -2px rgba(42,42,42,.4);
+        }
+    }
+    background-image: url('../imgs/background/backgroungd-outeam1.png');
+    margin-top: -740px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    .ourteam-box{
+        max-width: 1780px !important;
+        padding-top: 80px;
+        .ourteam-title{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            h2{
+                font-family: asap_semibold;
+                font-size: 50px;
+                color: #000000;
+            }
+            p{
+                font-size: 24px;
+                font-family: asap_regular;
+                color: #bababa;
+            }
+        }
+        .ourteam-carousel{
+            padding-top: 50px;
+            .ourteam-author{
+                padding-bottom: 100px;
+                .owl-dots{
+                    margin-top: 40px;
+                    .owl-dot{
+                        outline: none;
+                    }
+                    .active{
+                        span{
+                            background-color: #ffbf2d;
+                        }
+                    }
+                }
+                .item-author{
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 20px;
+                    padding: 15px;
+                    background-color: #f6f6f6;
+                    max-width: 330px;
+                    .img-author{
+                        position: relative;
+                       // margin: 15px;
+                        border-radius: 10px;
+                        .shadow{
+                            position: absolute;
+                            z-index: 2;
+                            background: rgba(0,0,0,0.5);
+                            width: 0%;
+                            height: 100%;
+                            border-radius: 10px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: right 2s;
+                            .icon{
+                                i{
+                                    color: #ffffff;
+                                    font-size: 20px;
+                                    padding-right: 20px;
+                                    display: none;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    .img-author-p{
+                        display: block;
+                        text-align: center;
+                        font-family: asap_regular;
+                        font-size: 24px;
+                        color: #aeaeae;
+                        padding-top: 30px;
+                        padding-bottom: 20px;
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        background-color: #ffffff;
+                        box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
+                        .img-author{
+                            .shadow{
+                                width: 100%;
+                                .icon{
+                                    i{
+                                        display: unset;
+                                    }
+                                    .fa-facebook-f{
+                                        color: #ffffff;
+                                        &:hover{
+                                            color: #337ab7;
+                                        }
+                                    }
+                                    .fa-twitter{
+                                        color: #ffffff;
+                                        &:hover{
+                                            color: #00aced;
+                                        }
+                                    }
+                                    .fa-google-plus-g{
+                                        color: #ffffff;
+                                        &:hover{
+                                            color: #dd4b39;
+                                        }
+                                    }
+                                    .fa-instagram{
+                                        color: #ffffff;
+                                        &:hover{
+                                             color: #f7ae74;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        p{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

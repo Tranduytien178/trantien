@@ -1,0 +1,97 @@
+.footer{
+    background-image: url('../imgs/background/background-footer.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -180px;
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 175px;
+        @media only screen and(max-width: 1024px){
+            padding-bottom: 75px;
+        }
+        .footer-logo{
+            padding-top: 200px;
+            text-align: center;
+            @media only screen and(max-width: 768px){
+                width: 180px;
+            }
+        }
+        .footer-content-contact{
+            margin-top: 25px;
+            font-family: asap_regular;
+            font-size: 36px;
+            color: #000000;
+            @media only screen and(max-width: 768px){
+                font-size: 18px;
+                margin-top: 20px;
+            }
+        }
+        .footer-content-h1{
+            padding-top: 90px;
+            font-family: asap_regular;
+            font-size: 36px;
+            color: #c7c7c7;
+            @media only screen and(max-width: 768px){
+                font-size: 26px;
+                padding-top: 50px;
+            }
+        }
+        .footer-content-adress{
+            font-family: asap_regular;
+            font-size: 20px;
+            color: #c7c7c7;
+            padding-top: 20px;
+            text-align: center;
+            @media only screen and(max-width: 768px){
+                font-size: 16px;
+                padding-top: 10px;
+            }
+        }
+        .footer-icon{
+            padding-top: 15px;
+            .footer-content-a{
+                margin-left: 40px;
+                i{
+                    font-size: 26px;
+                    color: #c7c7c7;
+                }
+                .fa-facebook-f{
+                    &:hover{
+                        color: #337ab7;
+                    }
+                }
+                .fa-twitter{
+                    &:hover{
+                        color: #00aced;
+                    }
+                }
+                .fa-google-plus-g{
+                    &:hover{
+                        color: #dd4b39;
+                    }
+                }
+                .fa-wifi{
+                    &:hover{
+                        color: #c0c0c0;
+                    }
+                }
+                .fa-instagram{
+                    &:hover{
+                        color: #f7ae74;
+                    }
+                }
+                @media only screen and(max-width: 768px){
+                    margin-left: 20px;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        @media only screen and(max-width: 768px){
+            padding-bottom: 85px;
+        }
+    }
+}

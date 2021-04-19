@@ -1,0 +1,43 @@
+.slider_theme {
+  background-image: url("../imgs/background/background-slider-theme1.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_theme {
+    background-position: top left;
+  }
+}
+
+.slider_theme .thim-block-slider-home {
+  padding: 320px 0 660px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .slider_theme .thim-block-slider-home {
+    padding: 240px 0 460px;
+  }
+}
+
+.slider_theme .thim-block-slider-home .content {
+  max-width: 360px;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_theme .thim-block-slider-home .content .content-title {
+    font-size: 70px;
+  }
+}
+
+.slider_theme .thim-block-slider-home .content .content-content {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_theme .thim-block-slider-home .content .content-content {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=slider-theme.css.map */

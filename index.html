@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Phycodes</title>
+        <!-- <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome-free-5.14.0-web/css/all.css"> -->
+        <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome-free-5.14.0-web/css/all.min.css">
+        <link rel="stylesheet" href="assets/libs/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
+	    <link rel="stylesheet" href="assets/libs/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/fonts/ionicons/css/ionicons.min.css?v=1">  
+        <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/bootstrap.min.css?v=1.1">
+        <link rel="stylesheet" type="text/css" href="assets/fonts/asap/css/asap.css">
+        <link rel="stylesheet" type="text/css" href="assets/sass/style.css">
+    </head>
+    <body>
+        <div id = "wrapper-container" >
+            <header class = "site-header" id = "site-header">
+                <div class = "header-inner">
+                    <div class = "wrap-content-header">
+                        <div class = "header-logo">
+                            <a href="#" class = "logo">
+                                <img src = "assets/imgs/logos/logo-header.png" alt="image logo">
+                            </a>
+                        </div>
+                        <nav class = "main-navigation" id="main-navigation">
+                            <div class = "exit-mobile-menu" onclick="removemenumobile()">
+                                <i class="fas fa-times icon-out"></i>
+                            </div>
+                            <ul class = "menu-lists">
+                                <li >
+                                    <a href="index.html" class = "active">home</a>
+                                </li>
+                                <li class = "menu-item-has-children">
+                                    <a href="work.html">work</a>
+                                    <ul class = "sub-menu">
+                                        <li>
+                                            <a href = "#">work 1</a>
+                                        </li>
+                                        <li>
+                                            <a href = "#">work 2</a>
+                                        </li>
+                                        <li>
+                                            <a href = "#">work 3</a>
+                                        </li>
+                                        <li>
+                                            <a href = "#">work 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <li class = "menu-item-has-children">
+                                    <a href="theme.html">themes</a>
+                                    <ul class = "sub-menu">
+                                        <li>
+                                            <a href="#">themes1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">themes2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">themes3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">themes4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class = "menu-item-has-children">
+                                    <a href="services.html">services</a>
+                                    <ul class = "sub-menu">
+                                        <li>
+                                            <a href="#">themes1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">themes2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">themes3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">themes4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="contact.html">contact</a>
+                                </li>
+                                <li class = "menu-item-has-children">
+                                    <a href="blog.html">blog</a>
+                                </li>
+                            </ul>
+                        </nav>    
+                        <div class="menu-mobile-effect"  onclick="showmenumobile()">
+							<div class="icon-wrap">
+                                <i class="ion-navicon"></i>
+							</div>
+						</div> 
+                    </div>
+                </div>
+            </header>
+            <div class = "main-content">
+                <div class = "slider" id = "slider">
+                    <h2 class = "slider-h2">
+                        Creative
+                    </h2>
+                    <div class = "thim-block-slider-home">
+                        <div class = "container">
+                            <div class = "content">
+                                <p class = "content_vertical" >Agency.</p>
+                                <h2 class = "content-title">We are a creative</h2>
+                                <p class = "content-content">We create digital experiences, visual identities 
+                                   and emotional connections between brands and 
+                                   people.
+                                </p>
+                                <a href = "#" class = "content-button">
+                                    <p class = "content-button-p">Ask for a quote</p>
+                                    <img class = "content-button-img" src = "assets/imgs/icons/question.png">
+                                </a>       
+                            </div>
+                            <a href = "#products">
+                                <div class = "scroll-down">
+                                    <img src= "assets/imgs/icons/scroll-top.png ">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "products" id = "products">
+                    <!--<div class  = "products_bigtext">
+                        <h2 class = "products_h2">
+                            Products
+                        </h2>
+                    </div>-->
+                    <div class = "container">
+                        <div class = "products-title">
+                            <div class = "row">
+                                <div class = "col-sm-6">
+                                    <div class = "title">
+                                        <h2 class = "products-title-h">Our products</h2>
+                                        <p class = "products-title-p">Discover our selected work</p>
+                                    </div>
+                                </div>
+                                <div class = "col-sm-6">
+                                    <!--<button class = "products-title-button">
+                                        <p class = "products-title-button-p">View all products</p>
+                                        <img  src = "assets/imgs/icons/picture.png">
+                                    </button> -->
+                                    <a href = "#" class = "content-button products-title-button">
+                                        <p class = "content-button-p">Ask for a quote</p>
+                                        <img class = "content-button-img" src = "assets/imgs/icons/picture.png">
+                                    </a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "all-products">
+                            <div class = "row all-products-item" id = "all-products"> 
+                                <div class = "col-md-6 col-xl-4" id = "all-product-item">
+                                    <div class = "items-product">
+                                        <div class = "image-product">
+                                            <a href="#">
+                                                <div class = "background-image">
+                                                    <div class = "display-background-image">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class = "image-product-a" href = "#">
+                                                <img class = "image-product-img" src = "assets/imgs/products/cake&breakery.png" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class = "content-product">
+                                            <a class = "title-product" href = "#">
+                                                Cake & Bakery WordPress Theme
+                                            </a>
+                                            <p class = "author-product">
+                                                by Bekijk Projects
+                                            </p>
+                                            <p class = "description-product">
+                                                Hotel Queen is a highly customizable hotel theme with its page builder and plenty of color...
+                                            </p>
+                                            <div class = "detail-product">
+                                                <div class = "row">
+                                                    <div class = "col-sm-6">
+                                                        <a class = "detail-product-a" href = "#">
+                                                            <p class = "detail-product-p">Preview details</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class = "col-sm-6">
+                                                        <div class = "evaluate-product">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "col-md-6 col-xl-4" id = "all-product-item">
+                                    <div class = "items-product">
+                                        <div class = "image-product">
+                                            <a href="#">
+                                                <div class = "background-image">
+                                                     <div class = "display-background-image">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href = "#">
+                                                <img src = "assets/imgs/products/cake&breakery.png" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class = "content-product">
+                                            <a class = "title-product" href = "#">
+                                                Cake & Bakery WordPress Theme
+                                            </a>
+                                            <p class = "author-product">
+                                                by Bekijk Projects
+                                            </p>
+                                            <p class = "description-product">
+                                                Hotel Queen is a highly customizable hotel theme with its page builder and plenty of color...
+                                            </p>
+                                            <div class = "detail-product">
+                                                <div class = "row">
+                                                    <div class = "col-sm-6">
+                                                        <a class = "detail-product-a" href = "#">
+                                                            <p class = "detail-product-p">Preview details</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class = "col-sm-6">
+                                                        <div class = "evaluate-product">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "col-md-6 col-xl-4" id = "all-product-item">
+                                    <div class = "items-product">
+                                        <div class = "image-product">
+                                            <a href="#">
+                                                <div class = "background-image">
+                                                    <div class = "display-background-image">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href = "#">
+                                                <img src = "assets/imgs/products/cake&breakery.png" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class = "content-product">
+                                            <a class = "title-product" href = "#">
+                                                Cake & Bakery WordPress Theme
+                                            </a>
+                                            <p class = "author-product">
+                                                by Bekijk Projects
+                                            </p>
+                                            <p class = "description-product">
+                                                Hotel Queen is a highly customizable hotel theme with its page builder and plenty of color...
+                                            </p>
+                                            <div class = "detail-product">
+                                                <div class = "row">
+                                                    <div class = "col-sm-6">
+                                                        <a class = "detail-product-a" href = "#">
+                                                            <p class = "detail-product-p">Preview details</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class = "col-sm-6">
+                                                        <div class = "evaluate-product">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "col-md-6 col-xl-4" id = "all-product-item">
+                                    <div class = "items-product">
+                                        <div class = "image-product">
+                                            <a href="#">
+                                                <div class = "background-image">
+                                                    <div class = "display-background-image">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href = "#">
+                                                <img src = "assets/imgs/products/cake&breakery.png" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class = "content-product">
+                                            <a class = "title-product" href = "#">
+                                                Cake & Bakery WordPress Theme
+                                            </a>
+                                            <p class = "author-product">
+                                                by Bekijk Projects
+                                            </p>
+                                            <p class = "description-product">
+                                                Hotel Queen is a highly customizable hotel theme with its page builder and plenty of color...
+                                            </p>
+                                            <div class = "detail-product">
+                                                <div class = "row">
+                                                    <div class = "col-sm-6">
+                                                        <a class = "detail-product-a" href = "#">
+                                                            <p class = "detail-product-p">Preview details</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class = "col-sm-6">
+                                                        <div class = "evaluate-product">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "col-md-6 col-xl-4" id = "all-product-item">
+                                    <div class = "items-product">
+                                        <div class = "image-product">
+                                            <a href="#">
+                                                <div class = "background-image">
+                                                    <div class = "display-background-image">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href = "#">
+                                                <img src = "assets/imgs/products/cake&breakery.png" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class = "content-product">
+                                            <a class = "title-product" href = "#">
+                                                Cake & Bakery WordPress Theme
+                                            </a>
+                                            <p class = "author-product">
+                                                by Bekijk Projects
+                                            </p>
+                                            <p class = "description-product">
+                                                Hotel Queen is a highly customizable hotel theme with its page builder and plenty of color...
+                                            </p>
+                                            <div class = "detail-product">
+                                                <div class = "row">
+                                                    <div class = "col-sm-6">
+                                                        <a class = "detail-product-a" href = "#">
+                                                            <p class = "detail-product-p">Preview details</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class = "col-sm-6">
+                                                        <div class = "evaluate-product">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "col-md-6 col-xl-4" id = "all-product-item">
+                                    <div class = "items-product">
+                                        <div class = "image-product">
+                                            <a href="#">
+                                                <div class = "background-image">
+                                                    <div class = "display-background-image">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href = "#">
+                                                <img src = "assets/imgs/products/cake&breakery.png" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class = "content-product">
+                                            <a class = "title-product" href = "#">
+                                                Cake & Bakery WordPress Theme
+                                            </a>
+                                            <p class = "author-product">
+                                                by Bekijk Projects
+                                            </p>
+                                            <p class = "description-product">
+                                                Hotel Queen is a highly customizable hotel theme with its page builder and plenty of color...
+                                            </p>
+                                            <div class = "detail-product">
+                                                <div class = "row">
+                                                    <div class = "col-sm-6">
+                                                        <a class = "detail-product-a" href = "#">
+                                                            <p class = "detail-product-p">Preview details</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class = "col-sm-6">
+                                                        <div class = "evaluate-product">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "whyoutclient">
+                    <div class = "button-cicle">
+                        <div class = "button-cicle-icon">
+                            <img src = "assets/imgs/icons/heart1.png">
+                        </div>
+                    </div>
+                    <h2 class = "whyoutclient_h2"> Client us </h2>
+                    
+                    <div class = "container">
+                        <div class = "whyoutclient-title">
+                            <h1>Why our clients us</h1>
+                            <p>And why they keep coming back</p>
+                        </div>
+                        <div class = "all_client">
+                            <div class = "owl-carousel all_client-comment">
+                                <div class = "items">
+                                    <a href = "#" class = "author-a">
+                                        <div class = "author author-left">
+                                            <img class = "author-img" src="assets/imgs/icons/copy.png">
+                                            <div class = "author-content">
+                                                <p>Physcode have an exceptional ability to transform vision and direction into on-target creative. I strongly recommended them for creative strategy work at all levels of
+                                                    sophistication.
+                                                </p>
+                                                <div class = "author-name">
+                                                    <div class = "author-name-img">
+                                                        <img src = "assets/imgs/author/author1.png">
+                                                    </div>
+                                                    <p>Bekijk Projects / Pro design</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class = "items">
+                                    <a href = "#" class = "author-a">
+                                        <div class = "author author-left">
+                                            <img class = "author-img" src="assets/imgs/icons/copy.png">
+                                            <div class = "author-content">
+                                                <p>Physcode have an exceptional ability to transform vision and direction into on-target creative. I strongly recommended them for creative strategy work at all levels of
+                                                    sophistication.
+                                                </p>
+                                                <div class = "author-name">
+                                                    <div class = "author-name-img">
+                                                        <img src = "assets/imgs/author/author1.png">
+                                                    </div>
+                                                    <p>Bekijk Projects / Pro design</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class = "items">
+                                    <a href = "#" class = "author-a">
+                                        <div class = "author author-left">
+                                            <img class = "author-img" src="assets/imgs/icons/copy.png">
+                                            <div class = "author-content">
+                                                <p>Physcode have an exceptional ability to transform vision and direction into on-target creative. I strongly recommended them for creative strategy work at all levels of
+                                                    sophistication.
+                                                </p>
+                                                <div class = "author-name">
+                                                    <div class = "author-name-img">
+                                                        <img src = "assets/imgs/author/author1.png">
+                                                    </div>
+                                                    <p>Bekijk Projects / Pro design</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class = "items">
+                                    <a href = "#" class = "author-a">
+                                        <div class = "author author-left">
+                                            <img class = "author-img" src="assets/imgs/icons/copy.png">
+                                            <div class = "author-content">
+                                                <p>Physcode have an exceptional ability to transform vision and direction into on-target creative. I strongly recommended them for creative strategy work at all levels of
+                                                    sophistication.
+                                                </p>
+                                                <div class = "author-name">
+                                                    <div class = "author-name-img">
+                                                        <img src = "assets/imgs/author/author1.png">
+                                                    </div>
+                                                    <p>Bekijk Projects / Pro design</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class = "items">
+                                    <a href = "#" class = "author-a">
+                                        <div class = "author author-left">
+                                            <img class = "author-img" src="assets/imgs/icons/copy.png">
+                                            <div class = "author-content">
+                                                <p>Physcode have an exceptional ability to transform vision and direction into on-target creative. I strongly recommended them for creative strategy work at all levels of
+                                                    sophistication.
+                                                </p>
+                                                <div class = "author-name">
+                                                    <div class = "author-name-img">
+                                                        <img src = "assets/imgs/author/author1.png">
+                                                    </div>
+                                                    <p>Bekijk Projects / Pro design</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class = "items">
+                                    <a href = "#" class = "author-a">
+                                        <div class = "author author-left">
+                                            <img class = "author-img" src="assets/imgs/icons/copy.png">
+                                            <div class = "author-content">
+                                                <p>Physcode have an exceptional ability to transform vision and direction into on-target creative. I strongly recommended them for creative strategy work at all levels of
+                                                    sophistication.
+                                                </p>
+                                                <div class = "author-name">
+                                                    <div class = "author-name-img">
+                                                        <img src = "assets/imgs/author/author1.png">
+                                                    </div>
+                                                    <p>Bekijk Projects / Pro design</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+                <div class = "whatwedo">
+                    <div class = "container">
+                        <div class = "whatwedo-content">
+                            <div class = "row">
+                                <div class = "col-lg-6">
+                                    <div class = "row">
+                                        <div class = "col-sm-6">
+                                            <div class = "whatwedo-items">
+                                                <img class = "whatwedo-items-img" src = "assets/imgs/icons/web.png" alt="">
+                                                <h2 class = "whatwedo-items-title">Web</h2>
+                                                <div class = "whatwedo-items-content">
+                                                    <a href = "#" class = "whatwedo-items-a">Responsive Design</a>
+                                                    <a href = "#" class = "whatwedo-items-a">E-Commerce</a>
+                                                    <a href = "#" class = "whatwedo-items-a">Social</a>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class = "col-sm-6">
+                                            <div class = "whatwedo-items">
+                                                <img class = "whatwedo-items-img" src = "assets/imgs/icons/magento.png" alt="">
+                                                <h2 class = "whatwedo-items-title">Magento</h2>
+                                                <div class = "whatwedo-items-content">
+                                                    <a href = "#" class = "whatwedo-items-a">Responsive Design</a>
+                                                    <a href = "#" class = "whatwedo-items-a">E-Commerce</a>
+                                                    <a href = "#" class = "whatwedo-items-a">Social</a>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class = "col-sm-6">
+                                            <div class = "whatwedo-items">
+                                                <img class = "whatwedo-items-img" src = "assets/imgs/icons/app.png" alt="">
+                                                <h2 class = "whatwedo-items-title">App</h2>
+                                                <div class = "whatwedo-items-content">
+                                                    <a href = "#" class = "whatwedo-items-a">Responsive Design</a>
+                                                    <a href = "#" class = "whatwedo-items-a">E-Commerce</a>
+                                                    <a href = "#" class = "whatwedo-items-a">Social</a>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class = "col-sm-6">
+                                            <div class = "whatwedo-items">
+                                                <img class = "whatwedo-items-img" src = "assets/imgs/icons/identifine.png" alt="">
+                                                <h2 class = "whatwedo-items-title">Identity</h2>
+                                                <div class = "whatwedo-items-content">
+                                                    <a href = "#" class = "whatwedo-items-a">Responsive Design</a>
+                                                    <a href = "#" class = "whatwedo-items-a">E-Commerce</a>
+                                                    <a href = "#" class = "whatwedo-items-a">Social</a>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class = "col-lg-6">
+                                    <div class = "whatwedo-depcription">
+                                        <h2 class = "whatwedo-depcription-title">What We do</h2>
+                                        <p class = "whatwedo-depcription-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                        <p class = "whatwedo-depcription-p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
+                                        <a href = "#" class = "content-button whatwedo-depcription-button">
+                                            <p class = "content-button-p">Ask for a quote</p>
+                                            <img class = "content-button-img" src = "assets/imgs/icons/picture.png">
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "ourteam">
+                    <div class = "button-cicle cicle-ourteam">
+                        <div class = "button-cicle-icon cicle-ourteam-icon">
+                            <img src = "assets/imgs/icons/Human.png">
+                        </div>
+                    </div>
+                    <div class = "container ourteam-box">
+                        <div class = "ourteam-title">
+                            <h2>Our Teams</h2>
+                            <p>meet our team</p>
+                        </div>
+                        <div class = "ourteam-carousel">
+                            <div class = "owl-carousel owl-theme ourteam-author">
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/ourteam-au2.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/ourteam-aut3.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/ourteam-au4.png  ">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                                <div class = "items item-author">
+                                    <div class = "img-author">
+                                        <div class = "shadow">
+                                            <div class = "icon">
+                                                <a href = "#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href = "#"><i class="fab fa-twitter"></i></a>
+                                                <a href = "#"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href = "#"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <img src = "assets/imgs/author/outeam-author1.png">
+                                    </div>
+                                    <a class = "img-author-p" href = "#">Kiersten Lange</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "footer">
+                    <div class = "container">
+                        <div class = "footer-content">
+                            <img class = "footer-logo" src = "assets/imgs/logos/logo-footer.png">
+                            <a class = "footer-content-contact" href = "#">Info@Physcode.com</a>
+                            <h1 class = "footer-content-h1">Student Job</h1>
+                            <p class = "footer-content-adress">203 Nguyen Huy Tuong Street, Imperia Garden Tower, Thanh Xuan District, Hanoi</p>
+                            <div class = "footer-icon">
+                                <a href="#" class = "footer-content-a"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class = "footer-content-a"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class = "footer-content-a"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="#" class = "footer-content-a"><i class="fas fa-wifi"></i></a>
+                                <a href="#" class = "footer-content-a"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <script src="assets/libs/jquery/jquery-3.4.1.min.js?v=1"></script>
+        <script src="assets/libs/bootstrap/bootstrap.min.js?v=1"></script>
+        <script src="assets/libs/bootstrap/popper.min.js"></script>
+        <script src="assets/libs/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

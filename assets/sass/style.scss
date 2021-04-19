@@ -1,0 +1,28 @@
+/* header */
+@import "header/header.scss";
+
+/* main */
+    /* form */
+    @import "form/fromstyle.scss";    
+    /* slider */
+    @import "slider/slider.scss";
+    @import "slider/slider-theme.scss";
+    @import "slider/slider-services";
+    @import "slider/slider-work.scss";
+    @import "slider/slider-blog.scss";
+    @import "slider/slider-contacts.scss";
+    /* products */
+    @import "products/products.scss";
+    @import "products/theme-product.scss";   
+    /* Why our clients us */
+    @import "whyoutclient/whyoutclient.scss";
+    /* What we do */
+    @import "whatwedo/whatwedo.scss";
+    /* out team */
+    @import "ourteam/ourteam.scss";
+
+/* footer */
+@import "footer/footer.scss";    
+@import "footer/theme-footer.scss";    
+/* reset */
+@import "base/reset.scss";

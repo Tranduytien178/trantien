@@ -1,0 +1,99 @@
+.whatwedo{
+    background-image: url('../imgs/background/background-new.png');
+    margin-top: -77px;
+    @media only screen and(max-width: 1690px) {
+        background-image: url('../imgs/background/background-new2.png');
+    }
+    .whatwedo-content{
+        padding-bottom: 865px;
+        padding-top: 280px;
+        .whatwedo-items{
+            .whatwedo-items-img{
+                @media only screen and(max-width: 575px){
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            }
+            .whatwedo-items-title{
+                font-family: asap_semibold;
+                font-size: 44px;
+                color: #000000;
+                padding-top: 30px;
+                @media only screen and(max-width: 768px){
+                    font-size: 34px;
+                }
+                @media only screen and(max-width: 575px){
+                    text-align: center;
+                }
+            }
+            padding-top: 50px;
+            //   display: flex;
+            //    flex-direction: column;
+            .whatwedo-items-content{
+                display: flex;
+                flex-direction: column;
+                padding-top: 15px;
+                .whatwedo-items-a{
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-family: asap_regular;
+                    color: #c0c0c0;
+                    cursor: pointer;
+                    @media only screen and(max-width: 768px){
+                        font-size: 22px;
+                    }
+                    @media only screen and(max-width: 575px){
+                        text-align: center;
+                    }
+                    &:hover{
+                        color: #ffc22c;
+                    }
+                }
+            }
+        }
+        .whatwedo-depcription{
+            padding-top: 50px;
+            max-width: 385px;
+            float: right;
+            margin-right: 100px;
+            .whatwedo-depcription-title{
+                font-family: asap_bold;
+                font-size: 100px;
+                color: #000000;
+                padding-bottom: 20px;
+                line-height: 1;
+                @media only screen and(max-width: 1024px){
+                    font-size: 80px;
+                }
+                @media only screen and(max-width: 793px){
+                    font-size: 70px;
+                }
+            }
+            .whatwedo-depcription-p{
+                font-family: asap_regular;
+                font-size: 18px;
+                color: #000000;
+            }
+            .whatwedo-depcription-button{
+                max-width: 214px;
+            }
+            @media only screen and(max-width: 793px) {
+                &{
+                    float: unset;
+                    max-width: unset;
+                    margin-right: unset;
+                }   
+            }
+            @media only screen and(max-width: 1199px){
+                max-width: unset;
+                margin-right: unset;
+            }
+        }
+        
+        @media only screen and(max-width: 793px){
+            padding-bottom: 765px;
+            padding-top: 160px;
+        }
+    }
+}

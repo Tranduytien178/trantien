@@ -1,0 +1,90 @@
+.slider{
+    .slider-h2{
+        font-family: asap_semibold;
+        font-size: 150px;
+        color: #ffda2d;
+        transform: rotate(90deg);
+        float: right;
+        margin-right: -150px;
+        margin-top: 400px;
+        @media only screen and(max-width: 1888px){
+            display: none;
+        }
+    }
+    background-image: url('../imgs/background/background-slider3.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    @media only screen and(max-width:1919px) {
+        background-position: unset;
+    }
+    @media only screen and(max-width:1760px) {
+        background-image: url('../imgs/background/background-slider2.png');
+    }
+    .thim-block-slider-home{
+        padding: 320px 0 345px;
+        @media only screen and(max-width: 1366px){
+            padding: 220px 0 345px;
+        }
+        // @media only screen and(max-width: 767px){
+        //     padding: 150px 0 245px;
+        // }
+        .content{
+            .content_vertical{
+                font-family: asap_semibold;
+                font-size: 36px;
+                color: #c7c7c7;
+                transform: rotate(90deg);
+                float: right;
+                margin-right: -100px;
+                margin-top: 20px;
+                @media only screen and(max-width: 767px){
+                    display: none;
+                }
+            }
+              max-width: 410px;
+            @media only screen and(max-width: 767px){
+                max-width: 380px;
+            }
+            .content-title{
+                //font-family: Asap Bold;
+                //font-family: asap;
+                font-size: 100px;
+                font-family: asap_bold;
+                line-height: 0.9;
+                @media only screen and(max-width: 767px){
+                    font-size: 70px;
+                }
+                @media only screen and(max-width: 300px){
+                    font-size: 55px;
+                }
+            }
+            .content-content{
+                font-size: 18px;
+                font-family: asap_regular;
+                margin-top: 25px;
+                font-weight: 600;
+                // color: #262626;
+                color: #615f5f;   
+            }
+        }
+        .scroll-down{
+            width: 30px;
+            margin: 0 auto;
+            height: 50px;
+            display: block;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            @media only screen and(max-width: 1366px){
+                margin-top: 90px;
+            }
+            img{
+                width: 25px;
+            }
+            @media only screen and(max-width: 1199px){
+                display: none;
+            }
+        }
+    }
+}

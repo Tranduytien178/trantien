@@ -1,0 +1,102 @@
+.slider_services{
+    background-image: url('../imgs/background/background-slider-services.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    @media only screen and(max-width: 991px){
+        background-position: top left;
+    }
+    @media only screen and(max-width: 768px){
+        background-image: url('../imgs/background/background-slider-services2.png');
+    }
+    .thim-block-slider-home{
+        
+        @media only screen and(max-width: 768px){
+            padding: 140px 0 360px;
+        }
+    }   
+}
+.service-content{
+    background-image: url('../imgs/background/background_services_body.png');
+   
+    margin-top: -635px;
+    .service_1{
+        .service-img1{
+            padding-top: 60px;
+            width: 100%;
+        }
+        padding-top: 135px;
+        padding-bottom: 90px;
+        @media only screen and(max-width: 1366px){
+            padding-bottom: 40px;
+            padding-top: 235px;
+        }
+        .service_1-content{
+            padding-top: 135px;
+            .service-content-title{
+                font-family: asap_medium;
+                font-size: 50px;
+                max-width: 300px;
+                @media only screen and(max-width: 768px){
+                    font-size: 30px;
+                    max-width: 200px;
+                }
+            }
+            .service-content-text{
+                font-family: asap_regular;
+                font-size: 16px;
+                max-width: 650px;
+                padding-top: 10px;
+                @media only screen and(max-width: 768px){
+                    max-width: unset;
+                }
+            }
+        }
+    }
+    .service_2{
+        .image-service-ig{
+            @media only screen and(max-width: 991px){
+                order: 1;
+            }
+        }
+        padding-top: 35px;
+        padding-bottom: 80px;
+        .image-service{
+            height: 550px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .service-img{
+                max-width: 100%;
+            }
+            @media only screen and(max-width: 991px){
+                height: auto;
+                display: flex;
+                padding-top: 50px;
+            }
+        }   
+        .service2-content-title{
+            padding-top: 100px;
+            font-family: asap_medium;
+            font-size: 50px;
+            max-width: 300px;
+            @media only screen and(max-width: 768px){
+                font-size: 30px;
+                max-width: 200px;
+                padding-top: 50px;
+            }
+        }
+        .service2-content-text{
+            font-family: asap_regular;
+            font-size: 16px;
+            max-width: 650px;
+            padding-top: 10px;
+        }
+        @media only screen and(max-width: 1366px){
+            padding-bottom: 40px;
+        }
+        @media only screen and(max-width: 768px){
+            max-width: unset;
+        }
+    }
+}

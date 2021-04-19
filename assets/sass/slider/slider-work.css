@@ -1,0 +1,160 @@
+.main-content-work .slider-work {
+  background-image: url("../imgs/background/slider-work.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 699px) {
+  .main-content-work .slider-work {
+    background-image: url("../imgs/background/slider-work1.png");
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-content-work .slider-work {
+    background-position: top left;
+  }
+}
+
+.main-content-work .slider-work .thim-block-slider-home {
+  padding: 320px 0 460px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .main-content-work .slider-work .thim-block-slider-home {
+    padding: 220px 0 345px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-content-work .slider-work .thim-block-slider-home {
+    padding: 150px 0 445px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .main-content-work .slider-work .thim-block-slider-home {
+    padding: 150px 0 345px;
+  }
+}
+
+.main-content-work .products {
+  background-image: unset;
+}
+
+.main-content-work .product-work {
+  background-image: url("../imgs/background/background-product-work.png");
+}
+
+.main-content-work .product-work .work-filter .work-filter-row {
+  max-width: 606px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content-work .product-work .work-filter .work-filter-row {
+    max-width: 406px;
+  }
+}
+
+.main-content-work .product-work .work-filter .work-filter-row .work-filter-all .filter-all-number {
+  font-family: asap_bold;
+  font-size: 28px;
+  color: #ffc22c;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-all .filter-all-number {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-all .filter-all-number {
+    font-size: 14px;
+  }
+}
+
+.main-content-work .product-work .work-filter .work-filter-row .work-filter-all .filter-all-text {
+  font-family: asap_medium;
+  font-size: 24px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-all .filter-all-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-all .filter-all-text {
+    font-size: 14px;
+  }
+}
+
+.main-content-work .product-work .work-filter .work-filter-row .work-filter-form {
+  position: relative;
+  padding: 0px 50px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 440px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-form {
+    padding: 0px 20px;
+  }
+}
+
+.main-content-work .product-work .work-filter .work-filter-row .work-filter-form .filter-form-h2 {
+  font-family: asap_semibold;
+  font-size: 100px;
+  color: #f6f6f6;
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-form .filter-form-h2 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-form .filter-form-h2 {
+    font-size: 60px;
+  }
+}
+
+.main-content-work .product-work .work-filter .work-filter-row .work-filter-form .filter-form-p {
+  font-family: asap_medium;
+  color: #9f9f9f;
+  font-size: 24px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-form .filter-form-p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main-content-work .product-work .work-filter .work-filter-row .work-filter-form .filter-form-p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .main-content-work .product-work .all-products {
+    padding-bottom: 120px;
+  }
+}
+/*# sourceMappingURL=slider-work.css.map */

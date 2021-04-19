@@ -1,0 +1,334 @@
+.slider_contacts {
+  background-image: url("../imgs/background/bg-banner-contacts.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_contacts {
+    background-position: top left;
+  }
+}
+
+.slider_contacts .thim-block-slider-home {
+  padding: 320px 0 240px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .slider_contacts .thim-block-slider-home {
+    padding: 220px 0 345px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slider_contacts .thim-block-slider-home {
+    padding: 150px 0 245px;
+  }
+}
+
+.contact-content {
+  background-image: url("../imgs/background/contacts-body.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-top: -260px;
+  padding-top: 140px;
+  padding-bottom: 150px;
+}
+
+.contact-content .contact-content-title {
+  font-family: asap_semibold;
+  font-size: 150px;
+  color: #f4f4f4;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  float: right;
+  margin-right: -150px;
+  margin-top: 300px;
+}
+
+@media only screen and (max-width: 1919px) {
+  .contact-content .contact-content-title {
+    display: none;
+  }
+}
+
+.contact-content .content-left {
+  background-image: url(../imgs/background/bg-left.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /* width: 400px; */
+  /* height: 600px; */
+  border-radius: 15px;
+  padding: 40px;
+  padding-bottom: 128px;
+}
+
+.contact-content .content-left .content-left-title {
+  font-family: asap_medium;
+  font-size: 50px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.contact-content .content-left .content-left-email {
+  font-family: asap_regular;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 5px;
+}
+
+.contact-content .content-left .content-left-button {
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact-content .content-left .content-left-button .content-left-button-a {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.contact-content .content-left .content-left-button .content-left-button-a:hover i {
+  color: #000000;
+}
+
+.contact-content .content-left .content-left-button .content-left-button-a i {
+  font-size: 18px;
+  color: #b5b5b5;
+}
+
+.contact-content .content-left .content-left-receive {
+  padding-top: 30px;
+  font-size: asap_medium;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-content .content-left .content-left-input {
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  background-color: transparent;
+  font-family: asap_regular;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-content .content-left .content-left-input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-left .content-left-input:-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-left .content-left-input::-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-left .content-left-input::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-content .content-left .content-left-input {
+    padding-top: 40px;
+    border-bottom: 2px solid #615f5f;
+    color: #615f5f;
+  }
+  .contact-content .content-left .content-left-input::-webkit-input-placeholder {
+    color: #615f5f;
+    font-size: 26px;
+  }
+  .contact-content .content-left .content-left-input:-ms-input-placeholder {
+    color: #615f5f;
+    font-size: 26px;
+  }
+  .contact-content .content-left .content-left-input::-ms-input-placeholder {
+    color: #615f5f;
+    font-size: 26px;
+  }
+  .contact-content .content-left .content-left-input::placeholder {
+    color: #615f5f;
+    font-size: 26px;
+  }
+}
+
+.contact-content .content-left .content-left-send {
+  display: block;
+  background-color: #cc697a;
+  padding: 18px;
+  font-family: asap_semibold;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 30px;
+  max-width: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.contact-content .content-right {
+  margin-left: 70px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .contact-content .content-right {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-content .content-right {
+    padding-top: 70px;
+  }
+}
+
+.contact-content .content-right .input-title {
+  font-family: asap_medium;
+  font-size: 36px;
+  color: #c0c0c0;
+}
+
+.contact-content .content-right .input-title span {
+  font-family: asap_semibold;
+  font-size: 36px;
+  color: #000000;
+}
+
+.contact-content .content-right .box-input {
+  padding-top: 50px;
+}
+
+.contact-content .content-right .box-input .box-input-input {
+  outline: none;
+  width: 100%;
+  border: 0px;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contact-content .content-right .box-input .box-input-input::-webkit-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-input:-ms-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-input::-ms-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-input::placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-dercrip {
+  height: 180px;
+  width: 100%;
+  outline: none;
+  border: 0px;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.contact-content .content-right .box-input .box-input-dercrip::-webkit-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-dercrip:-ms-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-dercrip::-ms-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-dercrip::placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: asap_regular;
+}
+
+.contact-content .content-right .box-input .box-input-button {
+  display: block;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: asap_semibold;
+  font-size: 18px;
+  padding: 20px;
+  max-width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contact-content .content-right .box-input .box-input-button:hover {
+  background-color: #ffc22c;
+  color: #ffffff;
+}
+/*# sourceMappingURL=slider-contacts.css.map */
